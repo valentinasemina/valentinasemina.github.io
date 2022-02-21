@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <!--Это навигация-->
+        <ul>
+            <!--Это ненумерованный список-->
+            <li>
+                <a href="example.html"> <img width="5%" src="../images/logo.jpg" /> </a>
+            </li>
+            <li>
+                <!--Это пункт в списке-->
+                <a href="about.html"> О себе </a>
+            </li>
+            <li>
+                <a href="comp.html"> Компетенция </a>
+            </li>
+            <li>
+                <a href="rezume.html"> Резюме </a>
+            </li>
+            <li>
+                <a href="portfolio.html"> Портфолио </a>
+            </li>
+            <li>
+                <a href="contact.html"> Контакты </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1> Веб-технологии </h1>
+        <!--Это заголовок-->
+        <h2> Университет "Дубна" </h2>
+        <h3> Есть вопросы?</h3>
+        <p>
+            Как вам удобно получить ответ:
+        <input type="radio" name="answer" value="phone"> по телефону
+        <input type="radio" name="answer" value="email"> по почте
+        <input type="radio" name="answer" value="no"> не отвечать
+        </p>
+        <p>
+            Укажите тему вопроса
+            <select name="the_question_about">
+                <option value="1">Работа</option>
+                <option value="2">Программа</option>
+                <option value="3">Учеба</option>
+            </select>
+        </p>
+        <p>
+            И еще один вопрос
+        <p><input type="checkbox" value="1"> может так</p>
+        <p><input type="checkbox" value="2"> или не так</p>
+        <p><input type="checkbox" value="3"> или иначе</p>
+        </p>
+        <div>
+            <label for="name">Ваше имя:</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="email">Адрес почты:</label>
+            <input type="text" name="email" id="email">
+        </div>
+        <div>
+            <label for="phone">Номер телефона:</label>
+            <input type="text" name="phone" id="phone">
+        </div>
+        <div>
+            <label for="message">Ваш вопрос:</label>
+            <br> <textarea name="message" id="message" cols="30" rows="5"></textarea>
+            </div>
+            <div>
+               <input type ="submit" value="отправить">
+            </div>
+        <footer>
+        <img width="7%" src="../images/logo_vk.png">   
+        <img width="10%" src="../images/logo_insta.jpg">  
+        <img width="5%" src="../images/logo_gt.png">  
+        <br> Cайт разработан ФИ, Copyright © 2021
+    </footer>
+    </main>
+</body>
+</html>
