@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.logo img {
+    width: 75px;
+    border-radius: 50%;
+}
+
+nav li {
+    display: inline;
+    border-left: 3px solid #fafafa;
+    padding: 0 10px;
+    margin-right: auto;
+}
+
+#first-image-block {
+    display: flex;
+}
+
+#first-image-block img {
+    width: 300px;
+    display: block;
+}
+
+#first-text {
+    text-align: left;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 0;
+    column-gap: 20px;
+}
+
+li a {
+    white-space: nowrap;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    color: white;
+    background-image: url(../images/фон.jpg);
+    background-attachment: fixed;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#first {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+
+#first h1 {
+    font-weight: 600;
+}
+
+#second {
+    background-color: black;
+    color: white;
+    padding: 40px 5px;
+    text-align: center;
+}
+
+#third {
+    background-color: white;
+    text-align: center;
+    padding: 35px 10px;
+}
+
+#third h1 {
+    margin-bottom: 30px;
+}
+
+#third div {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#third ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#third li {
+    text-align: left;
+    list-style: circle;
+}
+
+footer {
+    padding: 10px 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+}
+
+footer img {
+    width: 50px;
+    display: block;
+}
+
+#second h1 {
+    margin-bottom: 40px;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#skills img {
+    width: 150px;
+    border-radius: 10%;
+}
