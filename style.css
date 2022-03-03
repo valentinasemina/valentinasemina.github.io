@@ -56,7 +56,7 @@ li a {
 
 header {
     color: white;
-    background-image: url(../images/фон.jpg);
+    background-image: url(./images/фон.jpg);
     background-attachment: fixed;
     height: 250px;
     background-repeat: no-repeat;
